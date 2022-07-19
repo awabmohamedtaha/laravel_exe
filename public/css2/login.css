@@ -1,0 +1,134 @@
+
+.wrapper {
+    max-width: 350px;
+    min-height: 500px;
+    margin: 40px auto;
+    padding: 20px 30px 30px 30px;
+    background-color: #ecf0f3;
+    border-radius: 15px;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff
+}
+
+.logoo {
+    width: 80px;
+    margin: auto
+}
+
+.logoo img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px #5f5f5f, 0px 0px 0px 5px #ecf0f3, 8px 8px 15px #a7aaa7, -8px -8px 15px #fff
+}
+
+.wrapper .name {
+    
+    font-size: 1.4rem;
+    letter-spacing: 1.3px;
+    padding-left: 10px;
+    color: #366a8b;
+}
+
+.wrapper .form-field input {
+    width: 100%;
+    display: block;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.2rem;
+    color: #666;
+    padding: 10px 15px 10px 10px;
+    
+}
+
+.wrapper .form-field {
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    text-align: right;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff
+}
+
+.wrapper .form-field .fas {
+    color: #555
+}
+
+.wrapper .btn {
+    box-shadow: none;
+    width: 100%;
+    height: 40px;
+    background-color: #22688b;
+    color: #fff;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px #b1b1b1, -3px -3px 3px #fff;
+    letter-spacing: 1.3px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.wrapper .btn:hover {
+    background-color: #d9a405
+}
+
+.wrapper a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #366a8b
+}
+
+
+.option-login .forget{
+    padding: 0px 5px;
+    font-size: 14px;
+}
+.option-login .forget:hover{
+   text-decoration: underline;
+}
+.option-login .signup{
+    padding: 0px 5px;
+    font-size: 14px;
+    color:#d9a405;
+}
+.option-login .signup:hover{
+    text-decoration: underline;
+    color:#e2af15;
+}
+::placeholder{
+    text-align: right;
+    font-size: 14px;
+}
+#userName{
+    text-align: right;
+}
+#pwd{
+    text-align: right;
+}
+.icoo{
+    margin: 15px 15px;
+}
+.option-login .cc:hover{
+    text-decoration: none;
+    cursor: default;
+    
+}
+.signup-backk .signup-back{
+   
+    font-size: 14px;
+    color:#d9a405;
+    
+}
+.signup-backk .signup-back:hover{
+   
+  text-decoration: underline;
+    
+}
+.footer-txt{
+    font-size: 14px;
+}
+@media(max-width: 380px) {
+    .wrapper {
+        margin: 30px 20px;
+        padding: 40px 15px 15px 15px
+    }
+}

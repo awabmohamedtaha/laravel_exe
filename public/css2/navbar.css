@@ -1,0 +1,93 @@
+body{
+    background: #ecf0f3;
+    font-family: 'Scheherazade New', serif;
+    margin: 0;
+    padding: 0;
+}
+.bg-light {
+    background-color: #d39e00 !important;
+}
+.ul-items{
+    margin: 0px auto;
+    position: relative;
+}
+.nav-item {
+    /* outline: solid; */
+    padding: 1px 20px;
+    margin: 2px 2px;
+    background-color: #305d7a;
+  transition: 1s;
+  border-radius: 10px
+}
+.nav-item:hover{
+    background-color: #487a9b;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+.aa{
+    color: white;
+}
+.fa-user-circle{
+    margin-left: 5px;
+    font-size: 25px;
+    color: #305d7a;
+}
+
+.logout {
+    width: 225px;
+    height: 100px;
+    background-color: #4a8db9;
+    text-align: center;
+    padding: 35px 0px;
+    position: absolute;
+    left: 10px;
+    top: 45px;
+    border-radius: 0px 20px 20px 0px;
+    display: none;
+    z-index: 1000;
+    transition:1s;
+}
+.logout-txt{
+    color: white;
+}
+.logout-txt:hover{
+    color: white;
+}
+.fa-sign-out-alt{
+    color: #ec2933;
+    font-size: 24px;
+    
+}
+.fas-white{
+    font-size: 18px;
+    color: white;
+}
+.user:hover{
+    cursor: pointer;
+}
+.user:hover ~ .logout{
+    display: block;
+}
+.logout:hover{
+    display: block;
+}
+.exit{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .user{
+        display: none;
+    }
+    .fa-user-circle{
+        display: none;
+    }
+    .exit{
+        display: block;
+        background-color: red;
+    }
+  }

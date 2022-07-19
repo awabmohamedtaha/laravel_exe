@@ -1,0 +1,112 @@
+.box-linkk{
+    background-color: #CCAC00;
+    border: none;
+    display: inline-block;
+    color: white;
+    padding: 5px 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 0px;
+    
+}
+.box-linkk:hover{
+    background-color: #ecca09;
+    text-decoration: none;
+    color: white;
+}
+.box-linkkk{
+    background-color: #4298b5;
+    border: none;
+    display: inline-block;
+    color: white;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 0px;
+    
+}
+.box-linkkk:hover{
+    background-color: #005670;
+    text-decoration: none;
+    color: white;
+}
+.menu-img {
+    width: 60%;
+    height: 170px;
+    margin-top: 100px;
+    border-radius: 20%;
+    border: solid 2px #d39e00;
+}
+.div_order_Proccess{
+margin-top: 15px;
+padding: 15px;
+background-color: #22688b;
+color:white;
+}
+.div_order_Proccesss{
+    margin-top: 0px;
+    padding: 15px;
+    
+    }
+
+.div_order_Proccess_systemm{
+    margin-top: 0px;
+    padding: 10px;
+    background-color: #22688b;
+    }
+    .box-linkk{
+        background-color: #d9a405;
+        border: none;
+        display: inline-block;
+        color: white;
+        padding: 5px 25px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 0px;
+        
+    }
+    .box-linkk:hover{
+        background-color: #1fb9e7;
+        text-decoration: none;
+        color: white;
+    }
+    .box-linkkkk{
+        background-color: #D1565C;
+        border: none;
+        display: inline-block;
+        color: white;
+        padding: 5px 25px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 0px;
+        
+    }
+    .box-linkkkk:hover{
+        background-color: #1fb9e7;
+        text-decoration: none;
+        color: white;
+    }
+
+    .box-linkking{
+        background-color: #4298b5;
+        border: none;
+        display: inline-block;
+        color: white;
+        padding: 5px 16px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 0px;
+        
+    }
+    .box-linkking:hover{
+        background-color: #005670;
+        text-decoration: none;
+        color: white;
+    }
+    .deleteing{
+        background-color: red;
+    }
+    .deleteing:hover{
+        background-color: rgba(230, 19, 19, 0.897);
+    }
+    

@@ -1,0 +1,322 @@
+
+.user-container{
+    background: #cbd0d5;
+    border-bottom: solid 4px #d9a405;
+    height: 50px;
+    margin:0px 0px;
+}
+.header-txt{
+    width:100%;
+    background: #22688b;
+    color: white;
+    
+    margin: 10px 0px;
+}
+.txt-lable{
+    padding: 10px 15px;
+    font-size: 16px;
+}
+.order-form {
+    width: 100%;
+    height: auto;
+    box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 1px 3px 1px;
+    padding: 10px;
+    margin: 20px 0px;
+}
+.icox{
+    font-size: 24px;
+    color:#d9a405;
+}
+.nav-items{
+    text-align: right;
+}
+.bg-light {
+    background-color: #cbd0d5 !important;
+}
+.nav-option{
+    margin: 15px 0px;
+}
+.nav-txt{
+    padding:15px 15px;
+    color: #d9a405;
+}
+.form-con{
+    margin-bottom: 10px;
+}
+.combobox{
+    padding: 2px 5px;
+}
+.btn-save{
+    box-shadow: none;
+    width: 80%;
+    height: 40px;
+    background-color: #22688b;
+    color: #fff;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px #b1b1b1, -3px -3px 3px #fff;
+    letter-spacing: 1.3px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.btn-save:hover {
+    background-color: #d9a405;
+}
+.box-contener{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.boxOrder{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.box-header{
+padding: 10px;
+color: white;
+}
+.box-a{
+    background-color: #1EA2A4;
+}
+.box-b{
+    background-color: #D1565C;
+}
+.box-c{
+    background-color: #CCAC00;
+}
+.box-d{
+    background-color: #1D6C2B;
+}
+.boxContent{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 15px;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+}
+.box-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.box-link{
+    background-color: #4298b5;
+    border: none;
+    display: block;
+    color: white;
+    padding: 5px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+.box-link:hover{
+    background-color: #005670;
+    text-decoration: none;
+    color: white;
+}
+.box-linkk{
+    background-color: #4298b5;
+    border: none;
+    display: inline-block;
+    color: white;
+    padding: 5px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 0px;
+    
+}
+.box-linkk:hover{
+    background-color: #005670;
+    text-decoration: none;
+    color: white;
+}
+.delete{
+    background-color: red;
+}
+.delete:hover{
+    background-color: rgba(230, 19, 19, 0.897);
+}
+.hr-text {
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    opacity: .5;
+    margin-bottom: 30px;
+}
+.hr-text:before {
+      content: '';
+      background: linear-gradient(to right, transparent, #818078, transparent);
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      height: 1px;
+    }
+    .hr-text:after {
+      content: attr(data-content);
+      position: relative;
+      display: inline-block;
+      color: black;
+  
+      padding: 0 .5em;
+      line-height: 1.5em;
+      color: #383833;
+      background-color: #fcfcfa;
+    }
+    .info-ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      .info-ul li {
+        padding-left: 1em;
+        text-indent: -0.7em;
+    }
+      
+      .info-ul li::before {
+        content: "• ";
+        color: red; /* or whatever color you prefer */
+      }
+      .info-a{
+        background-color: #1EA2A4;
+        color: white;
+        padding: 10px 0px;
+        margin-bottom: 10px;
+        padding-right: 5px;
+    }
+    .info-b{
+        background-color: #D1565C;
+        color: white;
+        padding: 10px 0px;
+        margin-bottom: 10px;
+        padding-right: 5px;
+    }
+    .info-c{
+        background-color: #CCAC00;
+        color: white;
+        padding: 10px 0px;
+        margin-bottom: 10px;
+        padding-right: 5px;
+    }
+    .info-d{
+        background-color: #1D6C2B;
+        color: white;
+        padding: 10px 0px;
+        margin-bottom: 10px;
+        padding-right: 5px;
+    }
+    .info-contener{
+        margin-bottom: 20px;
+    }
+    .ico-img {
+        width: 30px;
+        margin-left: 5px;
+    }
+    .State-New{
+        display: inline-block;
+        background-color: #1EA2A4;
+        outline: none;
+        color: white;
+        border-radius: 10px;
+        padding:5px 10px;
+    }
+    .State-waiting{
+        display: inline-block;
+        background-color: #D1565C;
+        outline: none;
+        color: white;
+        border-radius: 10px;
+        padding:5px 10px;
+    }
+    .model-order-title{
+        color:#005670;
+    }
+    .header-delete{
+        background-color: #D1565C;
+    }
+    .header-delete-txt{
+        color:white;
+    }
+    .delete-modal-icon{
+        color:#D1565C;
+    }
+    .CallSystemTitle{
+        color:#D1565C;
+    }
+    .Pdf-info{
+        font-size: 14px;
+        color:#D1565C;
+    }
+    .State-Done{
+        display: inline-block;
+        background-color: #1D6C2B;
+        outline: none;
+        color: white;
+        border-radius: 10px;
+        padding:5px 10px;
+    }
+    .CallSystemTitle-Done{
+        color: #1D6C2B;
+    }
+    .State-proccess{
+        display: inline-block;
+        background-color: #CCAC00;
+        outline: none;
+        color: white;
+        border-radius: 10px;
+        padding:5px 10px;
+    }
+    .pdf_placeholder{
+        text-align: left;
+        font-size: 12pt;
+        color:#CCAC00;
+        padding-top: 5px;
+    }
+    .box_box{
+        width:100%;
+        padding:10px;
+        background-color: #1EA2A4;
+        color:white;
+        border-radius: 10px;
+    }
+    .pdf-link{
+        background-color: #1EA2A4;
+        border: none;
+        display: block;
+        color: white;
+        padding: 5px 16px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 5px;
+        margin-bottom: 2px;
+    }
+    .pdf-link:hover{
+        background-color: #005670;
+        text-decoration: none;
+        color: white;
+    }
+    .box-linkkkk{
+        background-color: #D1565C;
+        border: none;
+        display: inline-block;
+        color: white;
+        padding: 5px 25px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 0px;
+        
+    }
+    .box-linkkkk:hover{
+        background-color: #1fb9e7;
+        text-decoration: none;
+        color: white;
+    }

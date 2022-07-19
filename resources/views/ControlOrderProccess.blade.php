@@ -1,0 +1,94 @@
+
+@extends('Masterpage_ControlPanel')
+
+@section('title','الطلبات الجديدة')
+@section('CssFile')
+<link href="{{ asset('css2//ControlPanel.css') }}" rel="stylesheet">
+@stop
+
+@section('Content')
+
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
+    @if(count($select) > 0)
+    @foreach($select as $selected)
+      <div class="alert alert-info div_order_Proccess">
+        <h5>#رقم الطلب [{{ $selected->id }}]</h5>
+      </div>
+      <div class="alert alert-info div_order_Proccesss">
+        <h6>نوع الخدمة :</h6>
+        <p class="service_type">{{ $selected->services }}</p>
+        <hr>
+        <h6>متطلبات العميل :</h6>
+        <p class="service_type">{{ $selected->memo }}</p>
+      </div>
+      @endforeach
+    @endif
+    </div>
+
+    
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
+  
+      <div class="alert alert-info div_order_Proccess_systemm">
+      @if ($errors->any())
+    <div class="alert alert-danger">
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li class="text_worng">{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+@endif
+      <form action="/OrderProccessNewSave" method="POST" enctype="multipart/form-data" onsubmit='disableButton()'>
+  {{ csrf_field() }}
+
+      @if(count($select) > 0)
+    @foreach($select as $selected)
+    <input type="hidden" name="orderid" id="input" value="{{ $selected->id }}" class="form-control">
+    @endforeach
+    @endif
+      <h5 style="color:white">ردود النظام</h5>
+      <hr>
+      <div class="form-group">
+          <label style="color:white" for="">نوع المعالجة للطلب :</label>
+          
+          <select name="state" style="padding:5px" id="input" class="form-control" required="required">
+            <option value="مُعلق">معالجة مبدئية</option>
+            <option value="مكتمل">معالجة كلية</option>
+          </select>
+          
+        </div>
+        <div class="form-group">
+          <label style="color:white" for="">التفاصيل</label>
+          <textarea name="sendtext" id="input" class="form-control" rows="4" required="required"></textarea>
+        </div>
+        <div class="form-group">
+          <label style="color:white" for="">مرفقات للتحميل</label>
+          <input type="file" name="sendfile" id="input" class="form-control">
+          <p class="pdf_placeholder">يجب ان يكون المرفق بصيغة PDF وان لايتجاوز حجم الملف 5 ميغابايت</p>
+        </div>
+      
+        <button type="submit" id="btn1" class="box-linkk">تأكيد</button>
+      </form>
+        
+      
+        
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+@stop
+
+@section('JavaFile')
+<script>
+    function disableButton() {
+        var btn = document.getElementById('btn1');
+        btn.disabled = true;
+        btn.innerText = 'جاري المعالجة ...'
+    }
+</script>   
+@stop
